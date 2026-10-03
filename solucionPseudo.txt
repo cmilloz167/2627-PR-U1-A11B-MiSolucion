@@ -1,1 +1,80 @@
-Pseudocodigo
+Pseudocódigo
+
+Inicio
+
+Escribe "introduce precio de macarrones"
+
+Lee precio
+
+	Si precio = 0 escribe "No se han registrado productos"
+
+		Fin
+
+	Si precio < 0 escribe "error, precio es menor que cero"
+
+	Si precio > 0 escribe "introduce una cantidad mayor que 0"
+	
+		Lee cantidad
+
+			Mientras cantidad <= 0 escribe "Error, introduce una cantidad mayor que 0"
+
+Escribe "introduce precio de huevos"
+
+Lee precio
+
+	Mientras cantidad < 0 escribe "Error, introduce una cantidad mayor que 0"
+
+	Si precio > 0 escribe "introduce una cantidad mayor que 0"
+	
+		Lee cantidad
+
+			Mientras cantidad <= 0 escribe "Error, introduce una cantidad mayor que 0"
+
+
+total precio = Σ precio cada producto
+
+total cantidad = Σ cantidad cada producto
+
+Escribe total precio es: total precio
+
+Escribe total cantidad es: total cantidad
+
+total final = total precio * total cantidad
+
+Escribe "resumen de la compra"
+	
+	Escribe Total cantidad es: total cantidad
+	
+	Escribe importe sin descuento : total final
+
+	Escribe porcentaje de descuento
+	
+		Si total < 50€ escribe sin descuento
+
+		Si total =< 50€ hasta < 100€ descuento total escribe descuento 5 
+
+		Si total => 100€ total escribe descuento 10 
+	
+	Escribe descuento de:
+
+		Si total < 50€ escribe 0€
+
+		Si total =< 50€ hasta < 100€ descuento total final * 0,05
+
+		Si total => 100€ descuento total final * 0,10
+	
+Escribe total total final
+
+	Si total < 50€ sin descuento escribe total final
+
+	Si total =< 50€ hasta < 100€ descuento total con descuento 5% = total final - (total final * 0,05)
+
+		Escribe total con descuento 5%
+
+	Si total => 100€ total con descuento 10 = total final - (total final * 0,10)
+
+		Escribe total con descuento 10%
+
+
+Fin
+
